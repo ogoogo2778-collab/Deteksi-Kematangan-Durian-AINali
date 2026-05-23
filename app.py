@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 import numpy as np
 
-st.title("🍈 Deteksi Kematangan Durian AINali")
+st.title("🍈 Deteksi Kematangan Durian AINaLi")
 
 uploaded_file = st.file_uploader("Upload gambar durian", type=["jpg", "png", "jpeg"])
 
@@ -10,7 +10,7 @@ if uploaded_file:
     img = Image.open(uploaded_file)
     st.image(img, caption="Gambar masuk")
 
-    st.write("🔍 Analisis AINali sedang berjalan...")
+    st.write("🔍 Analisis AINaLi sedang berjalan...")
 
     # simulasi AI
     score = np.random.rand()
